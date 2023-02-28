@@ -26,7 +26,7 @@ jobs:
         run: sudo apt install libkrb5-dev
       
       - name: Install python-dev
-        run: sudo apt install libpython3.9-dev
+        run: sudo apt install python3-dev
 
       - name: Create and start virtual environment
         run: |
